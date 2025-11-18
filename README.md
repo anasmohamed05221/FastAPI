@@ -1,8 +1,9 @@
 ***📝 TodoApp – FastAPI Fullstack Application***
 
 Live Demo: [(https://anass-todoapp-fastapi.onrender.com)]
-Tech Stack: Python, FastAPI, SQLAlchemy, Pydantic v2, PostgreSQL/SQLite, Jinja2/js/css, Pytest, Alembic, Git
+Tech Stack: Python, FastAPI, SQLAlchemy, Pydantic v2, PostgreSQL/SQLite, Jinja2, bootstrap js/css, Pytest, Alembic, Git
 
+-------------------
 
 ***Description***
 
@@ -28,7 +29,7 @@ Secure password hashing and validation policies
 
 full-stack UI with Jinja templating for server-rendered pages
 
-
+-------------------
 
 ***Features***
 
@@ -42,7 +43,7 @@ Full-stack support with Jinja templates and bootstrap JS/CSS
 
 Consistent RESTful response schemas and proper HTTP status codes
 
-
+-------------------
 
 ***Future Improvements / Nice-to-Have***
 
@@ -50,11 +51,13 @@ Optional CSRF protection if using cookies for auth
 
 Improve frontend UI/UX with modern JS framework (React / Tailwind)
 
+-------------------
 
 ***Contribution***
 
 Contributions are welcome! Fork the repo, implement your changes, and submit a pull request.
 
+-------------------
 
 ***License***
 
