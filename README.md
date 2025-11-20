@@ -103,7 +103,7 @@ FastAPI-FullStack-TodoApp/
 ├── requirements.txt             # Python dependencies
 ├── test_main.http               # Manual API testing requests
 ├── testdb.db                    # SQLite test database
-└── todosapp.db                  # Main SQLite database
+└── todosapp.db                  # SQLite database for local development
 
 ```
 
