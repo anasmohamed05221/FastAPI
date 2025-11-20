@@ -56,6 +56,7 @@ Improve frontend UI/UX with modern JS framework (React / Tailwind)
 
 ***📁 Project Structure***
 
+```
 FastAPI-FullStack-TodoApp/
 │
 ├── TodoApp/                     # Main application package
@@ -88,7 +89,7 @@ FastAPI-FullStack-TodoApp/
 │   │
 │   ├── .idea/                   # IDE configs (should be gitignored)
 │   ├── .venv/                   # Local virtual environment (should be gitignored)
-│   ├── .vscode/                 # VSCode settings
+│   └── .vscode/                 # VSCode settings
 │
 ├── test/                        # Testing directory
 │   ├── __init__.py
@@ -103,6 +104,9 @@ FastAPI-FullStack-TodoApp/
 ├── test_main.http               # Manual API testing requests
 ├── testdb.db                    # SQLite test database
 └── todosapp.db                  # Main SQLite database
+
+```
+
 
 
 -------------------
