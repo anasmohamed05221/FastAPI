@@ -53,6 +53,64 @@ Improve frontend UI/UX with modern JS framework (React / Tailwind)
 
 -------------------
 
+
+***📁 Project Structure***
+
+```
+FastAPI-FullStack-TodoApp/
+│
+├── TodoApp/                     # Main application package
+│   ├── alembic/                 # Alembic migration environment
+│   │   ├── versions/            # Auto-generated migration scripts
+│   │   ├── env.py
+│   │   ├── README
+│   │   └── script.py.mako
+│   │
+│   ├── routers/                 # All API route files
+│   │   ├── __init__.py
+│   │   ├── admin.py             # Admin-only routes
+│   │   ├── auth.py              # Authentication & JWT logic
+│   │   ├── todos.py             # Todo CRUD endpoints
+│   │   └── users.py             # User management endpoints
+│   │
+│   ├── static/                  # Static frontend assets
+│   │   ├── css/
+│   │   └── js/
+│   │
+│   ├── templates/               # Jinja2 HTML templates
+│   │   ├── add-todo.html
+│   │   ├── edit-todo.html
+│   │   ├── home.html
+│   │   ├── layout.html
+│   │   ├── login.html
+│   │   ├── navbar.html
+│   │   ├── register.html
+│   │   └── todo.html
+│   │
+│   ├── .idea/                   # IDE configs (should be gitignored)
+│   ├── .venv/                   # Local virtual environment (should be gitignored)
+│   └── .vscode/                 # VSCode settings
+│
+├── test/                        # Testing directory
+│   ├── __init__.py
+│   ├── alembic.ini
+│   ├── database.py              # Test database setup
+│   ├── main.py                  # Test FastAPI app loader
+│   └── models.py                # Test database models
+│
+├── .gitignore
+├── README.md                    # Project documentation
+├── requirements.txt             # Python dependencies
+├── test_main.http               # Manual API testing requests
+├── testdb.db                    # SQLite test database
+└── todosapp.db                  # SQLite database for local development
+
+```
+
+
+
+-------------------
+
 ***Contribution***
 
 Contributions are welcome! Fork the repo, implement your changes, and submit a pull request.
