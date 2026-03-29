@@ -1,2 +1,7 @@
 /TodoApp/.vscode/
 /TodoApp/.venv/
+.venv/
+.idea/
+testdb.db
+todosapp.db
+
