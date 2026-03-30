@@ -5,3 +5,5 @@
 testdb.db
 todosapp.db
 
+
+/TodoApp/.env
